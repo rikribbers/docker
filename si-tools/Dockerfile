@@ -68,6 +68,7 @@ RUN git clone https://github.com/CenPC434/java-tools.git /usr/src/java-tools \
 
 ADD bin/validation.sh /opt/si-ubl/validation.sh
 ADD bin/validate-all.sh /opt/si-ubl/validate-all.sh
+ADD bin/validation-java-tools.sh /opt/si-ubl/validation-java-tools.sh
 ADD participant-exists.py /usr/bin/participant-exists.py 
 ADD sml-lookup.py /usr/bin/participant-exists.py 
 
